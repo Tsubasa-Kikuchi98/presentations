@@ -1,0 +1,14 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "Marpを使ったスライド作成プロジェクト",
+  "scripts": {
+    "dev": "marp --watch slides/",
+    "build": "marp slides/ --output dist/",
+    "build:pdf": "marp slides/ --output dist/ --pdf",
+    "build:pptx": "marp slides/ --output dist/ --pptx"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4"
+  }
+}
