@@ -6,7 +6,7 @@
 ## フォルダ構成
 - `drafts/` — ユーザーが作成するレジュメ原稿（入力）
 - `slides/` — Claudeが生成するMarpスライド（出力）
-- `dist/` — Marp CLIが出力するPDF/PPTX（ビルド成果物、gitignore対象）
+- `dist/` — Marp CLIが出力するHTML/PDF/PPTX（ビルド成果物）
 
 ## スライド生成ルール
 
