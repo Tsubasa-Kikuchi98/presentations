@@ -145,27 +145,15 @@ Anthropic社が提供する**コーディングエージェント**。
 
 ---
 
-# Claude Codeの特徴的な機能 ①
+# Claude Codeの主な機能
 
 ## CLAUDE.md（プロジェクトルール）
 
 プロジェクトのルールや規約をmarkdownで書いておくと、AIが毎回それに従って作業する。口頭の指示ではなく、**ドキュメントとしてルールを管理**する。
 
-<br>
-
-## MCP Server（外部ツール連携）
-
-AIが外部のツールやサービスにアクセスできるようになる仕組み。ドキュメント参照、Excel操作、外部APIの呼び出しなどを**AIが直接実行**できる。
-
----
-
-# Claude Codeの特徴的な機能 ②
-
 ## Skill（カスタム自動化）
 
 よく使うワークフローをテンプレート化して、**AIに繰り返し実行させる**仕組み。
-
-<br>
 
 ## hooks（自動処理）
 
@@ -187,13 +175,12 @@ AIの操作の特定のタイミングで自動的にスクリプトを実行す
 - **Excel パラメータシート** — 各リソース（Database, Warehouse, Role等）の設定値を定義
 - **Python** — ExcelからCSVへの変換処理。リソースごとに変換処理を持つ
 - **Terraform** — CSVの値をもとにSnowflakeリソースをプロビジョニング
-- **GitHub Actions** — CI/CD（pytest、Terraformプラン、dbtテスト等）
 
 ---
 
 # ライブデモ: 変換処理の自動生成
 
-これから実際にClaude Codeを使って、SnowflakeのDatabaseリソースのパラメータシートを自動生成するデモを行います。
+これから実際にClaude Codeを使って、SnowflakeのTableリソースの変換処理を自動生成するデモを行います。
 
 <br>
 
